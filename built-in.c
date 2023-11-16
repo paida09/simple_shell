@@ -10,7 +10,7 @@ void (*checkbins(vars_t *myvars))(vars_t *myvars)
 {
 	my_bins check[] = {
 		{"exit", quit},
-		{"env", my_env},
+		{"env",my_env},
 		{"setenv", set_environ},
 		{"unsetenv", unset_environ},
 		{NULL, NULL}

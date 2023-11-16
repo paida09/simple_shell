@@ -1,13 +1,13 @@
 #include "shell.h"
 
 /**
- * env - ...
+ * my_env - ...
  * @myvars: ...
  *
  * Return: void
  */
 
-void env(vars_t *myvars)
+void my_env(vars_t *myvars)
 {
 	unsigned int y = 0;
 
